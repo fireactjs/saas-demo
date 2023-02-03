@@ -1,6 +1,6 @@
 # @fireactjs/core Demo
 
-This is the source code of the @fireactjs/core package demo website.
+This is the source code of the @fireactjs/saas package demo website.
 
 ## Live Demo
 

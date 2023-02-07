@@ -8,6 +8,7 @@ import { CircularProgress, Box } from '@mui/material';
 import authMethods from "./authMethods.json";
 import { CreateSubscription, ListSubscriptions, pathnames as subPathnames, PermissionRouter, Settings, SubscriptionMenu, ListUsers, SubscriptionProvider, ListInvoices, ManagePaymentMethods, ChangePlan, CancelSubscription } from '@fireactjs/saas';
 import SaaSConfig from './config.json';
+import { MyComponent } from './components/MyComponent';
 
 const Brand = "FIREACT";
 
@@ -78,7 +79,7 @@ function App() {
 							<Route path={pathnames.Subscription} element={<SubscriptionProvider loader={<Loader size="large" />} />} >
 								<Route element={<AppTemplate logo={<Logo size="large" />} toolBarMenu={<UserMenu />} drawerMenu={<SubscriptionMenu />} />}>
 									<Route element={<PermissionRouter permissions={["access"]} />} >
-										<Route exact path={pathnames.Subscription+"/"} element={<div>Home</div>} />
+										<Route exact path={pathnames.Subscription+"/"} element={<MyComponent />} />
 									</Route>
 									<Route element={<PermissionRouter permissions={["admin"]} />} >
 										<Route exact path={pathnames.Settings} element={<Settings loader={<Loader size="large" />} />} />

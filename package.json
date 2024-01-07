@@ -3,12 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@fireactjs/core": "^1.1.1",
-    "@fireactjs/saas": "^1.2.0",
-    "@mui/material": "^5.11.6",
-    "@testing-library/jest-dom": "^5.16.5",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fireactjs/core": "^1.1.2",
+    "@fireactjs/saas": "^1.2.4",
+    "@mui/material": "^5.15.3",
+    "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "core-js": "^3.32.2"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "core-js": "^3.35.0"
   }
 }

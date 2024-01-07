@@ -13,12 +13,12 @@
   },
   "main": "index.js",
   "dependencies": {
-    "@fireactjs/saas-cloud-functions": "^1.2.0",
-    "firebase-admin": "^11.8.0",
-    "firebase-functions": "^4.3.1"
+    "@fireactjs/saas-cloud-functions": "^1.2.4",
+    "firebase-admin": "^11.11.1",
+    "firebase-functions": "^4.6.0"
   },
   "devDependencies": {
-    "firebase-functions-test": "^0.2.0"
+    "firebase-functions-test": "^0.2.3"
   },
   "private": true
 }

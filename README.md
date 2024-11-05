@@ -8,4 +8,4 @@ To experience the package, go to [https://saas-demo.fireactjs.com](https://saas-
 
 ## Installation
 
-To learn how to install the package to build your Reactjs SaaS application, go to [https://fireactjs.com/docs/saas-package/installation/](https://fireactjs.com/docs/saas-package/installation/)
+To learn how to install the package to build your Reactjs SaaS application, do not clone this repository - instead, follow the steps at [https://fireactjs.com/docs/saas-package/installation/](https://fireactjs.com/docs/saas-package/installation/).
